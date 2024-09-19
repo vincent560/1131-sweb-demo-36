@@ -1,0 +1,12 @@
+.body{
+  background-color: rgb(199, 162, 52);
+}
+
+.container {
+  background-color: rgb(148, 148, 76);
+  max-width: 500;
+  width: 80%;
+  margin: 30px auto;
+  border: 2px solid slateblue;
+  padding: 16px 30px 36px 30px;
+}
