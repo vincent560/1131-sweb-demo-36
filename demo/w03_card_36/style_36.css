@@ -1,9 +1,49 @@
 body{
   background-color: rgb(69, 208, 180);
 }
-.icon {
+.card {
+  background-color: rgb(255, 255, 255);
+  max-width: 300px;
+  border: 2px solid;
+  margin: 32px auto;
+  padding: 24px 32px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 5px  15px  rgb(0,0,0,0.4);
+}
+.card-1{
+  border-color: rgb(19, 113, 195, 0.5);
+}
+.card-2{
+  border-color: rgba(188, 131, 18, 0.5);
+}
+.icon{
   width: 50px;
   height: 50px;
-  background-color: rgb(114, 198, 91);
   border-radius: 50%;
+  margin: 0 auto;
+}
+.card-1 .icon {
+  background-color: rgb(114, 198, 91);
+}
+.card-2 .icon{
+  background-color: rgb(198, 196, 91);
+}
+.btn{
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  font-weight: 600;
+padding: 8px 15px;
+border-radius: 5px;
+border-color: transparent;
+}
+.btn-1{
+  color: rgb(17, 119, 10);
+  background-color:  rgb(114, 198, 91);
+  border-color: rgb(63, 155, 165);
+}
+.btn-2{
+  color: rgb(101, 97, 13);
+  background-color: rgb(198, 196, 91);
+  border-color: rgb(173, 105, 17);
 }
