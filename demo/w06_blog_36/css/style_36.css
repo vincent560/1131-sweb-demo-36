@@ -98,3 +98,17 @@ body {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 }
+@media screen and (min-width: 1600px)
+{
+.blogs .blogs-center 
+{
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+}
+@media screen and (min-width: 2150px)
+{
+.blogs .blogs-center 
+{
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+}
