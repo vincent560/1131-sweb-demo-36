@@ -35,7 +35,7 @@ body {
 
 .blogs .blogs-center {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr ;
 }
 
 .blog {
@@ -76,4 +76,11 @@ body {
   text-transform: capitalize;
   color: var(--gret-dark);
   letter-spacing: 1px;
+}
+@media screen and (min-width: 550px)
+{
+.blogs .blogs-center 
+{
+  grid-template-columns: 1fr 1fr;
+}
 }
