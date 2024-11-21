@@ -2,6 +2,57 @@
 
 //navbar
 .nav{
-  background: var(--grey-300);
+  background: var(white);
   box-shadow: var(--shadow-2);
+  line-height: 1;
+
+  &-header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1rem;
+  }
+  &-toggle{
+    font-size: 1.5rem;
+    color: var(--primary-500);
+    background: transparent;
+    border-color: transparent;
+    transition: var(--transition);
+    cursor: pointer;
+
+     &:hover{
+    transform: rotate(90deg);
+   }
+  }
+
+   .logo {
+    margin-bottom: 0;
+    span{
+      color: var(--primary-500);
+    }
+   }
+  
+   .social-icons{
+    display: none;
+   }
+
+   &-link {
+    margin: 0;
+    //height: 0;
+
+    a{
+      color: var(--grey-700);
+      font-size: 1rem;
+      padding: 0.75rem 1rem;
+      display: block;
+      letter-spacing: var(--letter-spacing);
+      transition: var(--transition);
+
+      &:hover{
+        background: var(--primary-300);
+        color: var(--primary-500);
+        padding-left: 1.5rem;
+      }
+    }
+   }
 }
