@@ -291,4 +291,42 @@ ul {
   padding-left: 1.5rem;
 }
 
+@media screen and (min-width: 800px) {
+  .nav-toggle {
+    display: none;
+  }
+  .nav-center {
+    max-width: var(--max-width);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .nav-links {
+    display: flex;
+  }
+  .nav-links a {
+    padding: 0;
+    margin: 0 0.5rem;
+  }
+  .nav-links a:hover {
+    padding: 0;
+    background: transparent;
+    padding-bottom: 3px;
+    border-bottom: 2px solid purple;
+  }
+  .nav .social-icons {
+    display: flex;
+    padding-right: 1rem;
+  }
+  .nav .social-icons a {
+    margin: 0 0.5rem;
+    color: var(--primary-500);
+    transition: var(--transition);
+  }
+  .nav .social-icons a:hover {
+    color: var(--primary-300);
+  }
+}
+
 /*# sourceMappingURL=main_36.css.map */
