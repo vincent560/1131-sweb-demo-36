@@ -1,0 +1,65 @@
+.tictactoe {
+  background: #666;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 450px;
+  overflow: auto;
+  margin: 40px auto;
+  border-radius: 10px;
+  padding: 40px;
+
+  h2 {
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  .board{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    li{
+      margin: 10px;
+      width: 90px;
+      height: 70px;
+      font-size: 40px;
+      font-weight: 800;
+      background-color: #333;
+      color: #ccc;
+      list-style: none;
+      text-align: center;
+      border-radius: 5px;
+
+
+      &:hover{
+        cursor: pointer;
+        background-color: #000;
+      }
+    }
+    .o{
+        color: green;
+      }
+      .x{
+        color: red;
+      }
+  }
+footer{
+  display: block;
+  text-align: center;
+  padding: 15px;
+}
+  .reset{
+    background-color: #444;
+    color: #fff;
+    padding: 15px;
+    width: 75%;
+    font-size: 25px;
+    border-radius: 5px;
+
+    &:hover{
+        cursor: pointer;
+        background-color: #000;
+      }
+  }
+}

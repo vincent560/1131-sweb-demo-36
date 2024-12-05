@@ -1,0 +1,47 @@
+.tiles {
+  padding: 2rem 0;
+}
+.tiles-center {
+  width: 90vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 12.5rem);
+  gap: 1rem;
+  grid-template-areas: "a a a b" "a a a c" "d d d d" "e f f f" "e g h i";
+}
+.tiles-center img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.tiles .tile-1 {
+  grid-area: g;
+}
+.tiles .tile-2 {
+  grid-area: b;
+}
+.tiles .tile-3 {
+  grid-area: c;
+}
+.tiles .tile-4 {
+  grid-area: h;
+}
+.tiles .tile-5 {
+  grid-area: e;
+}
+.tiles .tile-6 {
+  grid-area: d;
+}
+.tiles .tile-7 {
+  grid-area: f;
+}
+.tiles .tile-8 {
+  grid-area: a;
+}
+.tiles .tile-9 {
+  grid-area: i;
+}
+
+/*# sourceMappingURL=tiles_36.css.map */
