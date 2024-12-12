@@ -15,6 +15,13 @@ body {
     display: flex;
 }
 
+.logo h1 {
+  font-size: 24px;
+  color: #444;
+  margin: 0;
+  padding: 20px;
+}
+
 .hidden {
   display: none;
 }

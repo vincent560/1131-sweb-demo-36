@@ -2,17 +2,15 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
     integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />-->
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./normalize.css" />
+  <link rel="stylesheet" href="./css/tictactoe_36.css">
   <link rel="stylesheet" href="./css/all.min.css">
   <link rel="stylesheet" href="./css/megaMenu_36.css" />
-  <link rel="stylesheet" href="./css/classdemo_36.css">
-
-  <title>Mega and Dropdown Menu</title>
 </head>
 
 <body>
@@ -25,18 +23,19 @@
       </div>
       <div class="header-right">
         <ul class="main-menu">
-          <li class="menu-item"><a href="./index.html" class="active">Home</a></li>
+          <li class="menu-item"><a href="./index.html" class="active">CLASSDEMO</a></li>
 
           <li class="menu-item mega-menu">
-            <a href="#">Class Demo +</a>
+            <a href="#">Megamenu+</a>
             <div class="mega-menu-wrapper slideInUp">
               <div class="mega-menu-col">
-                <h5>W1~W7</h5>
+                <h5>Menu block 1</h5>
                 <ul class="mega-sub-menu">
-                  <li onclick="showclassdemo('w02-intro-36')"><a href="#">w02-intro-36</a></li>
-                  <li onclick="showclassdemo('w03_card_36')"><a href="#">w03_card_36</a></li>
-                  <li onclick="showclassdemo('w06_blog_36')"><a href="#">w06_blog_36</a></li>
-                  <li onclick="showclassdemo('w07_nav_36')"><a href="#">w07_nav_36</a></li>
+                  <li><a href="#">Menu block item 1</a></li>
+                  <li><a href="#">Menu block item 2</a></li>
+                  <li><a href="#">Menu block item 3</a></li>
+                  <li><a href="#">Menu block item 4</a></li>
+                  <li><a href="#">Menu block item 5</a></li>
                 </ul>
               </div>
               <div class="mega-menu-col">
@@ -73,7 +72,7 @@
           </li>
 
           <li class="menu-item dropdown">
-            <a href="#">Multipage +</a>
+            <a href="#">Multipage+</a>
             <div class="sub-menu-wrapper slideInUp">
               <ul class="sub-menu">
                 <li class="menu-item"><a href="./tictactoe_36.html">tictactoe_36</a></li>
@@ -101,10 +100,11 @@
               <div class="mega-menu-col">
                 <h5>Menu block 1</h5>
                 <ul class="mega-sub-menu">
-                  <li onclick="showclassdemo('w02-intro-36')"><a href="#">w02-intro-36</a></li>
-                  <li onclick="showclassdemo('w03_card_36')"><a href="#">w03_card_36</a></li>
-                  <li onclick="showclassdemo('w06_blog_36')"><a href="#">w06_blog_36</a></li>
-                  <li onclick="showclassdemo('w07_nav_36')"><a href="#">w07_nav_36</a></li>
+                  <li><a href="#">Menu block item 1</a></li>
+                  <li><a href="#">Menu block item 2</a></li>
+                  <li><a href="#">Menu block item 3</a></li>
+                  <li><a href="#">Menu block item 4</a></li>
+                  <li><a href="#">Menu block item 5</a></li>
                 </ul>
               </div>
               <div class="mega-menu-col">
@@ -139,7 +139,6 @@
               </div>
             </div>
           </li>
-
           <li class="menu-item dropdown">
             <a href="#">Multipage +</a>
             <div class="sub-menu-wrapper slideInUp">
@@ -158,11 +157,28 @@
     </div>
   </header>
 
-  <section class="show-classdemo">
+  <section class="tictactoe">
+    <header>
+      <h2>TicTacToe</h2>
+    </header>
+    <ul class="board">
+      <li class="x">x</li>
+      <li class="o">o</li>
+      <li class="x">x</li>
+      <li class="o">o</li>
+      <li class="o">o</li>
+      <li class="x">x</li>
+      <li>+</li>
+      <li class="o">o</li>
+      <li>+</li>
+    </ul>
+    <footer>
+      <button class="reset">
+        Reset Game
+      </button>
+    </footer>
   </section>
-
   <script src="./js/megaMenu36.js"></script>
-  <script src="./js/classdemo.js"></script>
 </body>
 
 </html>

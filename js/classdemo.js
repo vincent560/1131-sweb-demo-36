@@ -16,7 +16,7 @@ function showclassdemo(item) {
       break
 
        case 'w07_nav_36':
-      p.innerHTML = `<iframe src='./demo/w07_nav_36/index.html' width='100%' height='100%'/>`
+      p.innerHTML = `<iframe src='./demo/w07_36.html' width='100%' height='100%'/>`
       break
     }
 }
