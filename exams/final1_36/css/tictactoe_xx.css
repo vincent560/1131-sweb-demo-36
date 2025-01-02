@@ -1,0 +1,64 @@
+.tictactoe {
+  background: #1c1b1b;
+  color: #666;
+  font-family: "Arial", sans-serif;
+  width: 400px;
+  margin: 40px auto;
+  background: #666;
+  padding-bottom: 40px;
+  border-radius: 10px;
+}
+.tictactoe h2 {
+  text-align: center;
+  color: #fff;
+  margin-top: 1rem;
+}
+.tictactoe .board {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.tictactoe .board li {
+  margin: 10px;
+  height: 70px;
+  width: 90px;
+  font-size: 40px;
+  font-weight: 800;
+  background: #333;
+  color: #ccc;
+  list-style: none;
+  text-align: center;
+  border-radius: 5px;
+}
+.tictactoe .board li:hover {
+  cursor: pointer;
+  background: #000;
+}
+.tictactoe .board .o {
+  color: green;
+}
+.tictactoe .board .x {
+  color: red;
+}
+.tictactoe footer {
+  display: block;
+  text-align: center;
+  padding-top: 15px;
+}
+.tictactoe .reset {
+  border: 0;
+  background: #444;
+  color: #fff;
+  width: 70%;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 25px;
+}
+.tictactoe .reset:hover {
+  cursor: pointer;
+  background: #000;
+}
+
+/*# sourceMappingURL=tictactoe_xx.css.map */

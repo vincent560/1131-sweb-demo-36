@@ -1,0 +1,70 @@
+.tictactoe {
+  background: #1c1b1b;
+  color: #666;
+  font-family: 'Arial', sans-serif;
+  width: 400px;
+  margin: 40px auto;
+  background: #666;
+  padding-bottom: 40px;
+  border-radius: 10px;
+
+  h2 {
+    text-align: center;
+    color: #fff;
+    margin-top: 1rem;
+  }
+
+  .board {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    li {
+      margin: 10px;
+      height: 70px;
+      width: 90px;
+      font-size: 40px;
+      font-weight: 800;
+      background: #333;
+      color: #ccc;
+      list-style: none;
+      text-align: center;
+      border-radius: 5px;
+
+      &:hover {
+        cursor: pointer;
+        background: #000;
+      }
+    }
+
+    .o {
+      color: green;
+    }
+
+    .x {
+      color: red;
+    }
+  }
+  footer {
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  .reset {
+    border: 0;
+    background: #444;
+    color: #fff;
+    width: 70%;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 25px;
+
+    &:hover {
+      cursor: pointer;
+      background: #000;
+    }
+  }
+}

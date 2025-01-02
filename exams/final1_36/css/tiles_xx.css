@@ -1,0 +1,53 @@
+/*
+=========
+Tiles
+=========
+*/
+.tiles {
+  padding: 2rem 0;
+}
+.tiles .tiles-center {
+  width: 90vw;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 12.5rem);
+  gap: 1rem;
+  grid-template-areas: "a a a b" "a a a c" "d d d d" "e f f f" "e g h i";
+}
+.tiles .tiles-center img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.tiles .tiles-center .tile-1 {
+  grid-area: g;
+}
+.tiles .tiles-center .tile-2 {
+  grid-area: b;
+}
+.tiles .tiles-center .tile-3 {
+  grid-area: c;
+}
+.tiles .tiles-center .tile-4 {
+  grid-area: h;
+}
+.tiles .tiles-center .tile-5 {
+  grid-area: e;
+}
+.tiles .tiles-center .tile-6 {
+  grid-area: d;
+}
+.tiles .tiles-center .tile-7 {
+  grid-area: f;
+}
+.tiles .tiles-center .tile-8 {
+  grid-area: a;
+}
+.tiles .tiles-center .tile-9 {
+  grid-area: i;
+}
+
+/*# sourceMappingURL=tiles_xx.css.map */

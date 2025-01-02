@@ -1,0 +1,57 @@
+.final_panel {
+  background-color: #f1f1ff;
+  border: #ddd;
+  padding: 2rem 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 0.5rem;
+  text-align: center;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid transparent;
+  display: grid;
+  grid-template-columns: 1fr;
+  font-size: 10px;
+  .pricing-plan {
+    background: #f1f1ff;
+
+    .pricing-header {
+      color: #b3b3ba;
+      font-size: 1.3rem;
+      margin-top: 1rem;
+    }
+    .pricing-img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 0.5rem;
+    }
+    .pricing-features-item {
+      color: #016ff9;
+      font-size: 1.3rem;
+      margin-top: 1rem;
+    }
+
+    .pricing-button {
+      text-transform: capitalize;
+      padding: 0.5rem 1rem;
+      border: transparent;
+      border-radius: 0.5rem;
+      letter-spacing: 2px;
+      color: #016ff9;
+      background: #f1f1ff;
+      border-color: #016ff9;
+    }
+    .pricing-price {
+      color: #016ff9;
+      font-size: 5rem;
+      margin-top: 1rem;
+    }
+  }
+}
+
+@media (min-width: 800px) {
+  .final_panel {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
